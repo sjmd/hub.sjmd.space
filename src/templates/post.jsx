@@ -40,6 +40,8 @@ export default class PostTemplate extends React.Component {
               backgroundImage: 'url(' + imageUrl + ')',
               backgroundSize: '100%',
               backgroundPosition: 'center',
+              backgroundRepeat: 'no-repeat',
+              backgroundSize: 'cover',
               width:'100%', 
               height:'15rem' 
               }}>
